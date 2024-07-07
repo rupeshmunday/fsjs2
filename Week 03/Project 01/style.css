@@ -1,2 +1,49 @@
 /* You can not modify anything in the HTML */
+*{
+    font-family: Poppins;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+.list{
+    display: flex;
+    gap: 20px;
+    font-weight: 200;
+}
+.nav-button{
+    border: none;
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 8px;
+    background-color: #8B78E6;
+    color:#ffffff;
+}
+.button-group{
+    margin-right: 8%;
+} 
+ul {
+    list-style-type: none;
+}
+.grow-list{
+   margin-right: 40%; 
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container > div{
+    margin-left: 8%;
+    display: grid;
+    flex-wrap: wrap;
+    /* width: 10%; */
+    /* min-width: 5px; */
+    
+}
+.heading-text{
+    font-weight: 800;
+    /* font-size: 50px; */
+}
 /* You can only modify the CSS file */

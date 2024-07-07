@@ -1,2 +1,155 @@
 /* You can not modify anything from the HTML file */
+*{
+    margin: none;
+    padding:none;
+    font-family: Orbitron;
+}
+.container{
+    margin-left: 5%;
+}
+.navbar-container{
+    margin-top: 3%;
+    position:sticky;
+    /* top: 50%; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    gap:50px;
+    list-style-type:none;
+    font-weight: 600;
+}
+.button-group{
+    display: flex;
+    margin-right: 5%;
+    /* justify-content: space-evenly; */
+}
+.navbar-container > div > img {
+    height: 35px;
+    /* margin-left: 80px; */
+    padding: none;
+}
+.hero-container{
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    /* top : 40%; */
+    /* flex-direction: row-reverse; */
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    position: absolute;
+    left : 36%;
+    right: 5%;
+    top: 70px;
+    width: 800px;
+}
+.hero-description{
+    font-family: Poppins;
+    padding: 0% 15% 0% 15%;
+    margin-top: 0%;
+    text-align: center;
+    text-wrap-mode: wrap;
+    /* text-wrap-style: pretty; */
+    font-weight: 100;
+    font-size: 12px;
+}
+.hero-container > div > img {
+    position: absolute;
+    margin-left: 0%;
+    top: 2%;
+    width: 34.7%;
+    height: 500px;
+    padding: 25px 0px 0px 0px;
+}
+.square{
+    position: absolute;
+    left: 15%;
+    top: 275px;
+}
+.square > img {
+    width: 300px;
+    height: 300px;
+}
+.globe{
+    position:absolute;
+    left: 50%;
+    top : 0%;
+    /* width: 5px;
+    height: 5px; */
+}
+.globe > img {
+    width: 50px;
+
+}
+.hero-heading{
+    font-weight: 500;
+    font-size: 50px;
+    flex-wrap: wrap;
+}
+.star:nth-child(2) > img {
+    width: 50px;
+}
+.star:nth-child(3) > img {
+    width: 40px;
+    height: 40px
+}
+.star:nth-child(2){
+    position: absolute;
+    left: 90%;
+    margin-top: 40px;
+    /* margin-right: 80px; */
+}
+.star:nth-child(3){
+    position: absolute;
+    left: 52%;
+    margin-top: 40%;
+}
+.search-icon {
+    margin-right: 10px;
+}
+.search-icon > svg {
+    width: 20px;
+}
+.nav-button{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+}
+.button-join{
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 89px;
+}
+.button-email{
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 130px;
+}
+.hero-container-right > div > .contact-heading{
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 20%;
+    margin-top: 160%;
+}
+.icons > span > img{
+    width: 30px;
+    height: 30px;
+}
 /* You can only modify the CSS file */
